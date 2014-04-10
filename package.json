@@ -1,0 +1,30 @@
+{
+  "name": "uplink",
+  "version": "0.1.0",
+  "description": "A dependency-injected service layer compatible with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony -b -r node_modules/bluebird-mocha-generators"
+  },
+  "author": "Russ Powers",
+  "license": "MIT",
+  "keywords": [
+    "service",
+    "layer",
+    "dependency",
+    "injection",
+    "express"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "bluebird": "~1.2.2",
+    "tv4": "~1.0.16",
+    "dirject": "~0.1.1",
+    "gendi": "~0.1.0"
+  },
+  "devDependencies": {
+    "bluebird-mocha-generators": "~0.1.0",
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  }
+}

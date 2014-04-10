@@ -1,4 +1,4 @@
 uplink
 ======
 
-Uplink node.js service layer
+A dependency-injected service layer compatible with express
